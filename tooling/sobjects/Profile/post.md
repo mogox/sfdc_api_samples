@@ -3,7 +3,7 @@ POST Request for ApexClass
 
 ## PATH
 ```
-/services/data/v37.0/tooling/sobjects/Name/{ID}
+/services/data/v37.0/tooling/sobjects/Profile/{ID}
 ```
 ## Supported Versions
 37.0
@@ -20,7 +20,7 @@ POST Request for ApexClass
 {
   "attributes" : {
     "type" : "ApexClass",
-    "url" : "/services/data/v37.0/tooling/sobjects/Name/{ID}"
+    "url" : "/services/data/v37.0/tooling/sobjects/Profile/{ID}"
   },
   "Id" : "{ID}",
   "NamespacePrefix" : "Deskcom",

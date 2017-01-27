@@ -1,18 +1,16 @@
 # Sample Description
-POST Request for ApexClass
+Simple request of an ApexClassMember Get
 
 ## PATH
 ```
-/services/data/v37.0/tooling/sobjects/Name/{ID}
+/services/data/v37.0/tooling/sobjects/Profile/{ID}
 ```
 ## Supported Versions
 37.0
 
 ## request
 ```json
-{
-  "name": "Name Class"
-}
+{ }
 
 ```
 ## response
@@ -20,11 +18,11 @@ POST Request for ApexClass
 {
   "attributes" : {
     "type" : "ApexClass",
-    "url" : "/services/data/v37.0/tooling/sobjects/Name/{ID}"
+    "url" : "/services/data/v37.0/tooling/sobjects/Profile/{ID}"
   },
   "Id" : "{ID}",
   "NamespacePrefix" : "Deskcom",
-  "Name" : "Name Class",
+  "Name" : "Desk",
   "ApiVersion" : 24.0,
   "Status" : "Active",
   "IsValid" : true,
