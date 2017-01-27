@@ -1,9 +1,9 @@
 # Sample Description
-Simple request of an Apex Class Get
+Simple request of an ApexClassMember Get
 
 ## PATH
 ```
-/services/data/v37.0/tooling/sobjects/ApexClass/{ID}
+/services/data/v37.0/tooling/sobjects/ApexClassMember/{ID}
 ```
 ## Supported Versions
 37.0
@@ -18,7 +18,7 @@ Simple request of an Apex Class Get
 {
   "attributes" : {
     "type" : "ApexClass",
-    "url" : "/services/data/v37.0/tooling/sobjects/ApexClass/{ID}"
+    "url" : "/services/data/v37.0/tooling/sobjects/ApexClassMember/{ID}"
   },
   "Id" : "{ID}",
   "NamespacePrefix" : "Deskcom",
