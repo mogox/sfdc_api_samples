@@ -3,14 +3,10 @@ Simple request of an Apex Class Get
 
 ## PATH
 ```
-/services/data/v37.0/tooling/sobjects/ApexClass/{ID}
+/services/data/v38.0/tooling/sobjects/ApexClass/{ID}
 ```
 ## Supported Versions
-37.0
-
-## request
-```json
-{ }
+38.0
 
 ```
 ## response
@@ -18,22 +14,54 @@ Simple request of an Apex Class Get
 {
   "attributes" : {
     "type" : "ApexClass",
-    "url" : "/services/data/v37.0/tooling/sobjects/ApexClass/{ID}"
+    "url" : "/services/data/v38.0/tooling/sobjects/ApexClass/{ID}"
   },
   "Id" : "{ID}",
-  "NamespacePrefix" : "Deskcom",
-  "Name" : "Desk",
-  "ApiVersion" : 24.0,
+  "NamespacePrefix" : null,
+  "Name" : "ApexTestClass",
+  "ApiVersion" : 38.0,
   "Status" : "Active",
   "IsValid" : true,
-  "BodyCrc" : -1,
-  "Body" : "(hidden)",
-  "LengthWithoutComments" : -1,
-  "CreatedDate" : "2016-08-03T22:41:55.000+0000",
-  "CreatedById" : "00536000000c76wAAA",
-  "LastModifiedDate" : "2016-08-03T22:41:55.000+0000",
-  "LastModifiedById" : "00536000000c76wAAA",
-  "SystemModstamp" : "2017-01-26T22:46:18.000+0000",
-  "ManageableState" : "installed"
+  "BodyCrc" : 3.646420087E9,
+  "Body" : "public with sharing class ApexTestClass {}",
+  "LengthWithoutComments" : 38,
+  "CreatedDate" : "2017-01-31T22:44:34.000+0000",
+  "CreatedById" : "00541000000uEgSAAU",
+  "LastModifiedDate" : "2017-01-31T22:44:34.000+0000",
+  "LastModifiedById" : "00541000000uEgSAAU",
+  "SystemModstamp" : "2017-01-31T22:44:34.000+0000",
+  "ManageableState" : "unmanaged",
+  "SymbolTable" : {
+    "constructors" : [ ],
+    "externalReferences" : [ ],
+    "id" : "{ID}",
+    "innerClasses" : [ ],
+    "interfaces" : [ ],
+    "key" : "{ID}",
+    "methods" : [ ],
+    "name" : "ApexTestClass",
+    "namespace" : null,
+    "parentClass" : "",
+    "properties" : [ ],
+    "tableDeclaration" : {
+      "annotations" : [ ],
+      "location" : {
+        "column" : 27,
+        "line" : 1
+      },
+      "modifiers" : [ "public", "with sharing" ],
+      "name" : "ApexTestClass",
+      "references" : [ ],
+      "type" : "ApexTestClass"
+    },
+    "variables" : [ ]
+  },
+  "Metadata" : {
+    "apiVersion" : 38.0,
+    "packageVersions" : [ ],
+    "status" : "Active",
+    "urls" : null
+  },
+  "FullName" : "ApexTestClass"
 }
 ```
