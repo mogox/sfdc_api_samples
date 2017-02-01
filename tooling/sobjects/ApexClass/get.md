@@ -8,6 +8,10 @@ Simple request of an Apex Class Get
 ## Supported Versions
 38.0
 
+## request
+ ```json
+ { }
+
 ```
 ## response
 ```json
