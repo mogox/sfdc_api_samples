@@ -16,5 +16,5 @@ POST Request for ApexClass
 
 ## response
 ```json
-HTTP 204
+{ }
 ```
