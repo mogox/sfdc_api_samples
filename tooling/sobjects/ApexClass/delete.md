@@ -8,6 +8,12 @@ POST Request for ApexClass
 ## Supported Versions
 38.0
 
+## request
+ ```json
+ { }
+
+```
+
 ## response
 ```json
 HTTP 204
