@@ -11,16 +11,15 @@ Simple request of an Account record
 ## request
  ```json
  { }
-
 ```
+
 ## response
 ```json
 {
-  "attributes" : {
-    "type" : "Account",
-    "url" : "/services/data/v38.0/sobjects/Account/{ID}"
+  "attributes": {
+    "type": "Account",
+    "url": "/services/data/v38.0/sobjects/Account/{ID}"
   },
-  "Id" : "{ID}"
-  }
+  "id": "{ID}"
 }
 ```
