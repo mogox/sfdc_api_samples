@@ -3,7 +3,7 @@ Simple request of an Account record
 
 ## PATH
 ```
-/services/data/v38.0/sobjects/Account/{ID}?name="Acme"
+/services/data/v38.0/sobjects/Account/{ID}?name=Acme
 ```
 ## Supported Versions
 38.0
