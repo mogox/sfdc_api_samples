@@ -1,9 +1,9 @@
 # Sample Description
-DELETE Request for ApexClass
+DELETE Request for AccountSettings
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/ApexClass/{ID}
+/services/data/v39.0/tooling/sobjects/AccountSettings/{DurableId}
 ```
 ## Supported Versions
 39.0
