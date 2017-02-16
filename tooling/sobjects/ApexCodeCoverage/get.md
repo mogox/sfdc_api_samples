@@ -3,7 +3,7 @@ Simple request of an ApexCodeCoverage Get
 
 ## PATH
 ```
-/services/data/v37.0/tooling/sobjects/ApexCodeCoverage/{ID}
+/services/data/v39.0/tooling/sobjects/ApexCodeCoverage/{ID}
 ```
 ## Supported Versions
 37.0
@@ -17,23 +17,24 @@ Simple request of an ApexCodeCoverage Get
 ```json
 {
   "attributes" : {
-    "type" : "ApexClass",
-    "url" : "/services/data/v37.0/tooling/sobjects/ApexCodeCoverage/{ID}"
+    "type" : "ApexCodeCoverage",
+    "url" : "/services/data/v39.0/tooling/sobjects/ApexCodeCoverage/{ID}"
   },
   "Id" : "{ID}",
-  "NamespacePrefix" : "Deskcom",
-  "Name" : "Desk",
-  "ApiVersion" : 24.0,
-  "Status" : "Active",
-  "IsValid" : true,
-  "BodyCrc" : -1,
-  "Body" : "(hidden)",
-  "LengthWithoutComments" : -1,
-  "CreatedDate" : "2016-08-03T22:41:55.000+0000",
-  "CreatedById" : "00536000000c76wAAA",
-  "LastModifiedDate" : "2016-08-03T22:41:55.000+0000",
-  "LastModifiedById" : "00536000000c76wAAA",
-  "SystemModstamp" : "2017-01-26T22:46:18.000+0000",
-  "ManageableState" : "installed"
+  "IsDeleted" : false,
+  "CreatedDate" : "2017-02-16T19:04:01.000+0000",
+  "CreatedById" : "00541000000uEgSAAU",
+  "LastModifiedDate" : "2017-02-16T19:04:01.000+0000",
+  "LastModifiedById" : "00541000000uEgSAAU",
+  "SystemModstamp" : "2017-02-16T19:04:01.000+0000",
+  "ApexTestClassId" : "{ApexTestClassId}",
+  "TestMethodName" : "testApiatoTestClass",
+  "ApexClassOrTriggerId" : "{ApexClassOrTriggerId}",
+  "NumLinesCovered" : 5,
+  "NumLinesUncovered" : 30,
+  "Coverage" : {
+    "coveredLines" : [ 7, 12, 16, 20, 72 ],
+    "uncoveredLines" : [ 9, 13, 17, 22, 23, 26, 27, 30, 31, 34, 36, 37, 42, 46, 47, 48, 49, 50, 52, 57, 61, 62, 63, 66, 67, 73, 74, 76, 77, 78 ]
+  }
 }
 ```
