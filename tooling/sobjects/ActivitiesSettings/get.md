@@ -10,10 +10,10 @@ Simple request of an ActivitiesSettings Get
 
 ## request
  ```json
- { }
+ {}
 
 ```
 ## response
 ```json
-
+{}
 ```
