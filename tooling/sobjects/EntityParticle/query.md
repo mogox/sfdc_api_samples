@@ -47,8 +47,7 @@ Simple request of an EntityParticle record
         "type": "EntityParticle",
         "url": "/services/data/v39.0/tooling/sobjects/EntityParticle/Account.Name.TextName"
       }
-    },
-    ...
+    }
   ],
   "size": 74,
   "totalSize": 74
