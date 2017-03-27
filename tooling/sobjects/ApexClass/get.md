@@ -6,7 +6,7 @@ Simple request of an Apex Class Get
 /services/data/v39.0/tooling/sobjects/ApexClass/{ID}
 ```
 ## Supported Versions
-38.0
+39.0
 
 ## request
  ```json
@@ -18,12 +18,12 @@ Simple request of an Apex Class Get
 {
   "attributes" : {
     "type" : "ApexClass",
-    "url" : "/services/data/v38.0/tooling/sobjects/ApexClass/{ID}"
+    "url" : "/services/data/v39.0/tooling/sobjects/ApexClass/{ID}"
   },
   "Id" : "{ID}",
   "NamespacePrefix" : null,
   "Name" : "ApexTestClass",
-  "ApiVersion" : 38.0,
+  "ApiVersion" : 39.0,
   "Status" : "Active",
   "IsValid" : true,
   "BodyCrc" : 3.646420087E9,
@@ -61,7 +61,7 @@ Simple request of an Apex Class Get
     "variables" : [ ]
   },
   "Metadata" : {
-    "apiVersion" : 38.0,
+    "apiVersion" : 39.0,
     "packageVersions" : [ ],
     "status" : "Active",
     "urls" : null

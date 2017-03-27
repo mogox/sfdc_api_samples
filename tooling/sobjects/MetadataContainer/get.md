@@ -21,7 +21,7 @@ Simple request of an MetadataContainer Get
   "IsDeleted": false,
   "LastModifiedById": "{User ID}",
   "LastModifiedDate": "2017-01-11T07:26:16.000+0000",
-  "Name": "CLI Compiler",
+  "Name": "MDContainer_UniqueName",
   "SystemModstamp": "2017-01-11T07:26:16.000+0000",
   "attributes": {
     "type": "MetadataContainer",

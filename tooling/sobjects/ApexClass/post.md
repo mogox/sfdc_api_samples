@@ -6,7 +6,7 @@ POST Request for ApexClass
 /services/data/v39.0/tooling/sobjects/ApexClass
 ```
 ## Supported Versions
-38.0
+39.0
 
 ## request
 ```json

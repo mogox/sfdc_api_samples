@@ -3,7 +3,7 @@ Simple request of an MetadataContainer record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=select Id, Name, CreatedDate  from MetadataContainer
+/services/data/v39.0/tooling/query/?q=select Id, Name, CreatedDate, CreatedById, IsDeleted, LastModifiedDate, LastModifiedById, SystemModstamp from MetadataContainer where Id = '{ID}'
 ```
 ## Supported Versions
 39.0

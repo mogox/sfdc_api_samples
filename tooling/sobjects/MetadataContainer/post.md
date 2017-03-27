@@ -6,7 +6,7 @@ POST Request for MetadataContainer
 /services/data/v39.0/tooling/sobjects/MetadataContainer
 ```
 ## Supported Versions
-38.0
+39.0
 
 ## request
 ```json
@@ -19,7 +19,6 @@ POST Request for MetadataContainer
 {
   "errors": [],
   "id": "{ID}",
-  "method": "POST",
   "success": true
 }
 ```

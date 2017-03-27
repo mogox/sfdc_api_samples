@@ -6,7 +6,7 @@ Simple request of an ApexClass record
 /services/data/v39.0/tooling/query/?q=Select Id, Name, Body, FullName, Metadata from ApexClass where Id = '{ID}'
 ```
 ## Supported Versions
-38.0
+39.0
 
 ## request
  ```json
