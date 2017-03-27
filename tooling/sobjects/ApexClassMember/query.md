@@ -1,9 +1,9 @@
 # Sample Description
-Simple request of an ApexClassMember Get
+Simple request of an ApexClassMember record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/ApexClassMember/{ID}
+/services/data/v39.0/tooling/query/?q=Select Id, IsDeleted, MetadataContainerId, Body, SymbolTable, Metadata, FullName from ApexClassMember where Id = '{Id}'
 ```
 ## Supported Versions
 39.0
@@ -11,8 +11,8 @@ Simple request of an ApexClassMember Get
 ## request
 ```json
 {}
-
 ```
+
 ## response
 ```json
 {
@@ -22,9 +22,17 @@ Simple request of an ApexClassMember Get
   "records": [
     {
       "Body": "public with sharing class ApiatoTestClass {}",
+      "FullName": "UniqueName_ACM",
       "Id": "{ID}",
       "IsDeleted": false,
+      "Metadata": {
+        "apiVersion": 39,
+        "packageVersions": null,
+        "status": "Active",
+        "urls": null
+      },
       "MetadataContainerId": "{MetadataContainerId}",
+      "SymbolTable": null,
       "attributes": {
         "type": "ApexClassMember",
         "url": "/services/data/v39.0/tooling/sobjects/ApexClassMember/{ID}"
