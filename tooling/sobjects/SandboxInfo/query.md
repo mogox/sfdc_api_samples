@@ -14,7 +14,7 @@ Simple request of an SandboxInfo record
 ```
 
 ## request description
-Query request for the Apex Class record.  Find the ID
+Query request for a SandboxInfo record. You can query for all the sandboxes by removing the where clause on this sample.
 
 ## response
 ```json
