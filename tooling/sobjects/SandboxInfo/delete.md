@@ -8,14 +8,14 @@ DELETE Request for SandboxInfo
 ## Supported Versions
 39.0
 
-## request description
-Caution, this will effectively delete your sandbox and there is no way of getting it back.
-
 ## request
  ```json
  { }
 
 ```
+
+## request description
+Caution, this will effectively delete your sandbox and there is no way of getting it back.
 
 ## response
 ```json

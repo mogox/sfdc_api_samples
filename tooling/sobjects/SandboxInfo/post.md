@@ -8,9 +8,6 @@ POST Request for SandboxInfo
 ## Supported Versions
 39.0
 
-## request description
-This will set the sandbox in a queue process, the sandbox will not be available until processing is complete. Use SandboxProcess to monitor progress of the sandbox process.
-
 ## request
 ```json
 {
@@ -22,6 +19,10 @@ This will set the sandbox in a queue process, the sandbox will not be available 
   "SandboxName": "apiato"
 }
 ```
+
+## request description
+This will set the sandbox in a queue process, the sandbox will not be available until processing is complete. Use SandboxProcess to monitor progress of the sandbox process.
+
 ## response
 ```json
 {
