@@ -11,7 +11,7 @@ PATCH request for CustomFieldMember record
 ## request
  ```json
  {
-     "FullName" : "Account.apiato_txt",
+     "FullName" : "Account.apiato_txt__c",
      "Metadata" : {
        "caseSensitive" : null,
        "customDataType" : null,

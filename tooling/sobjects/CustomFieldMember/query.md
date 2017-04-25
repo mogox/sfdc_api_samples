@@ -22,7 +22,7 @@ Query request of an CustomFieldMember record
   "queryLocator": null,
   "records": [
     {
-      "FullName": "Account.apiato_txt",
+      "FullName": "Account.apiato_txt__c",
       "Id": "{ID}",
       "IsDeleted": false,
       "Metadata": {

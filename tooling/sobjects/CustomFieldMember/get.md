@@ -20,7 +20,7 @@ GET request for CustomFieldMember record
   "ContentEntityId": null,
   "CreatedById": "{UserId}",
   "CreatedDate": "2017-04-25T17:25:13.000+0000",
-  "FullName": "Account.apiato_txt",
+  "FullName": "Account.apiato_txt__c",
   "Id": "{ID}",
   "IsDeleted": false,
   "LastModifiedById": "{UserId}",

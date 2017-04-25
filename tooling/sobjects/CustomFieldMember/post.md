@@ -12,7 +12,7 @@ POST request for CustomFieldMember record
  ```json
  {
      "MetadataContainerId": "<MetadataContainer Id>",
-     "FullName" : "Account.apiato_txt",
+     "FullName" : "Account.apiato_txt__c",
      "Metadata" : {
        "caseSensitive" : null,
        "customDataType" : null,
