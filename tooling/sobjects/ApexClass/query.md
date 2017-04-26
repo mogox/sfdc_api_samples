@@ -14,7 +14,7 @@ Simple request of an ApexClass record
 ```
 
 ## request description
-Query request for the Apex Class record.  Find the ID
+Query request for the Apex Class record.
 
 ## response
 ```json
