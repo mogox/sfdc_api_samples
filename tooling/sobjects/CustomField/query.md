@@ -3,10 +3,10 @@ Simple request of an CustomField record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select Id, DeveloperName, NamespacePrefix, TableEnumOrId From CustomField Where TableEnumOrId = '{Object Name}' and DeveloperName = '{Field DeveloperName}'
+/services/data/v40.0/tooling/query/?q=Select Id, DeveloperName, NamespacePrefix, TableEnumOrId From CustomField Where TableEnumOrId = '{Object Name}' and DeveloperName = '{Field DeveloperName}'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0
 
 ## request
  ```json
