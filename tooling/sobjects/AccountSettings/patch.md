@@ -1,0 +1,30 @@
+# Sample Description
+PATCH request of an AccountSettings record
+
+## PATH
+```
+/services/data/v40.0/tooling/sobjects/AccountSettings/{DurableID}
+```
+## Supported Versions
+39.0, 40.0
+
+## request
+```json
+{
+  "FullName": "Account",
+  "Metadata": {
+    "enableAccountOwnerReport": null,
+    "enableAccountTeams": true,
+    "showViewHierarchyLink": true,
+    "urls": null
+  }
+}
+```
+
+## request description
+This sample updates enableAccountTeams from being false to true.
+
+## response
+```json
+{}
+```

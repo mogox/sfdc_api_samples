@@ -3,10 +3,10 @@ Simple request of an AccountSetting record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query?q=Select DurableId from AccountSettings
+/services/data/v40.0/tooling/query?q=Select DurableId from AccountSettings
 ```
 ## Supported Versions
-39.0
+39.0, 40.0
 
 ## request
  ```json
