@@ -3,10 +3,10 @@ Simple request of an RemoteProxy record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=select Id, Description, SiteName, IsActive from RemoteProxy
+/services/data/v40.0/tooling/query/?q=select Id, Description, SiteName, IsActive from RemoteProxy
 ```
 ## Supported Versions
-39.0
+39.0, 40.0
 
 ## request
  ```json
@@ -27,7 +27,7 @@ Simple request of an RemoteProxy record
       "SiteName": "ApexDevNet",
       "attributes": {
         "type": "RemoteProxy",
-        "url": "/services/data/v39.0/tooling/sobjects/RemoteProxy/{ID}"
+        "url": "/services/data/v40.0/tooling/sobjects/RemoteProxy/{ID}"
       }
     }
   ],
