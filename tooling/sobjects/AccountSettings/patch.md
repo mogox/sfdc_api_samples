@@ -3,10 +3,10 @@ PATCH request of an AccountSettings record
 
 ## PATH
 ```
-/services/data/v40.0/tooling/sobjects/AccountSettings/{DurableID}
+/services/data/v41.0/tooling/sobjects/AccountSettings/{DurableID}
 ```
 ## Supported Versions
-39.0, 40.0
+39.0, 40.0, 41.0
 
 ## request
 ```json
