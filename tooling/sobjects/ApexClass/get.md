@@ -1,29 +1,32 @@
 # Sample Description
-Simple request of an Apex Class Get
+Simple request of an ApexClass Get
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/ApexClass/{ID}
+/services/data/v42.0/tooling/sobjects/ApexClass/{ID}
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0
 
 ## request
- ```json
+```json
  { }
-
 ```
+
+## request description
+Get details for a specific ApexClass record.
+
 ## response
 ```json
 {
   "attributes" : {
     "type" : "ApexClass",
-    "url" : "/services/data/v39.0/tooling/sobjects/ApexClass/{ID}"
+    "url" : "/services/data/v42.0/tooling/sobjects/ApexClass/{ID}"
   },
   "Id" : "{ID}",
   "NamespacePrefix" : null,
   "Name" : "ApexTestClass",
-  "ApiVersion" : 39.0,
+  "ApiVersion" : 42.0,
   "Status" : "Active",
   "IsValid" : true,
   "BodyCrc" : 3.646420087E9,
@@ -61,7 +64,7 @@ Simple request of an Apex Class Get
     "variables" : [ ]
   },
   "Metadata" : {
-    "apiVersion" : 39.0,
+    "apiVersion" : 42.0,
     "packageVersions" : [ ],
     "status" : "Active",
     "urls" : null

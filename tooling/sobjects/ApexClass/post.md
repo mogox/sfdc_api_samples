@@ -3,10 +3,10 @@ POST Request for ApexClass
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/ApexClass
+/services/data/v42.0/tooling/sobjects/ApexClass
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0
 
 ## request
 ```json
@@ -16,6 +16,10 @@ POST Request for ApexClass
 }
 
 ```
+
+## request description
+Create a new ApexClass record called ApexTestClass.
+
 ## response
 ```json
 {
