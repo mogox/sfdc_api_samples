@@ -10,7 +10,7 @@ Simple request of an MetadataPackage Get
 
 ## request
 ```json
- { }
+{ }
 ```
 
 ## request description
@@ -25,6 +25,6 @@ Get details for a specific MetadataPackage record.
   },
   "Id": "{ID}",
   "Name": "{Package_Name}",
-  "NamespacePrefix": {Package_Namespace}
+  "NamespacePrefix": "{Package_Namespace}"
 }
 ```

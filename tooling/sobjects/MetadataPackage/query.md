@@ -32,7 +32,7 @@ Query request for the MetadataPackage records.
       },
       "Id": "{ID}",
       "Name": "{Package_Name}",
-      "NamespacePrefix": {Package_Namespace}
+      "NamespacePrefix": "{Package_Namespace}"
     }
   ]
 }
