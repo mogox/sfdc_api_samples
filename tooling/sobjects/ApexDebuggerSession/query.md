@@ -30,16 +30,16 @@ Query request for ApexDebuggerSession records.
       "url" : "/services/data/v42.0/tooling/sobjects/ApexDebuggerSession/{ID}"
     },
     "Id": "{ID}",
-    "Name": "00000006",
+    "Name": "Sample_Name",
     "CreatedDate": "2018-01-09T22:18:00.000+0000",
     "LastModifiedDate": "2018-01-09T22:18:01.000+0000",
     "Status": "Dead",
     "StatusUsername": null,
     "StatusMessage": "You exceeded your licensed number of debugging sessions. Please end other sessions or purchase more.",
     "StatusBy": "OrgAdmin",
-    "UserIdFilter": "{UserIdFilterID}",
-    "LicenseOrg": "000000000000000",
-    "License": "000000000000000",
+    "UserIdFilter": "{UserIdID}",
+    "LicenseOrg": "{OrgID}",
+    "License": "{LicenseID}",
     "LicenseType": null
   } ]
 }
