@@ -3,10 +3,10 @@ Simple request of an ApexExecutionOverlayAction record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/ApexExecutionOverlayAction/{ID}
+/services/data/{version}/tooling/sobjects/ApexExecutionOverlayAction/{ID}
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -32,7 +32,7 @@ Simple request of an ApexExecutionOverlayAction record
   "SystemModstamp": "2017-03-28T05:32:37.000+0000",
   "attributes": {
     "type": "ApexExecutionOverlayAction",
-    "url": "/services/data/v39.0/tooling/sobjects/ApexExecutionOverlayAction/{ID}"
+    "url": "/services/data/{version}/tooling/sobjects/ApexExecutionOverlayAction/{ID}"
   }
 }
 ```

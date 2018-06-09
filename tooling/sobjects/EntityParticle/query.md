@@ -3,10 +3,10 @@ Simple request of an EntityParticle record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=select DataType, FieldDefinition.QualifiedApiName from EntityParticle where EntityDefinition.QualifiedApiName = 'Account'
+/services/data/{version}/tooling/query/?q=select DataType, FieldDefinition.QualifiedApiName from EntityParticle where EntityDefinition.QualifiedApiName = 'Account'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -26,12 +26,12 @@ Simple request of an EntityParticle record
         "QualifiedApiName": "Id",
         "attributes": {
           "type": "FieldDefinition",
-          "url": "/services/data/v39.0/tooling/sobjects/FieldDefinition/Account.Id"
+          "url": "/services/data/{version}/tooling/sobjects/FieldDefinition/Account.Id"
         }
       },
       "attributes": {
         "type": "EntityParticle",
-        "url": "/services/data/v39.0/tooling/sobjects/EntityParticle/Account.Id"
+        "url": "/services/data/{version}/tooling/sobjects/EntityParticle/Account.Id"
       }
     },
     {
@@ -40,12 +40,12 @@ Simple request of an EntityParticle record
         "QualifiedApiName": "Name",
         "attributes": {
           "type": "FieldDefinition",
-          "url": "/services/data/v39.0/tooling/sobjects/FieldDefinition/Account.Name"
+          "url": "/services/data/{version}/tooling/sobjects/FieldDefinition/Account.Name"
         }
       },
       "attributes": {
         "type": "EntityParticle",
-        "url": "/services/data/v39.0/tooling/sobjects/EntityParticle/Account.Name.TextName"
+        "url": "/services/data/{version}/tooling/sobjects/EntityParticle/Account.Name.TextName"
       }
     }
   ],

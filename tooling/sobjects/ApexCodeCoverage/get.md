@@ -3,10 +3,10 @@ Simple request of an ApexCodeCoverage Get
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/ApexCodeCoverage/{ID}
+/services/data/{version}/tooling/sobjects/ApexCodeCoverage/{ID}
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -18,7 +18,7 @@ Simple request of an ApexCodeCoverage Get
 {
   "attributes" : {
     "type" : "ApexCodeCoverage",
-    "url" : "/services/data/v39.0/tooling/sobjects/ApexCodeCoverage/{ID}"
+    "url" : "/services/data/{version}/tooling/sobjects/ApexCodeCoverage/{ID}"
   },
   "Id" : "{ID}",
   "IsDeleted" : false,

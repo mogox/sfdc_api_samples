@@ -3,7 +3,7 @@ Simple request of an IDEWorkspace record
 
 ## PATH
 ```
-/services/data/v42.0/tooling/query/?q=Select Id, Name, Content, UserId, CreatedDate, LastModifiedDate from IDEWorkspace
+/services/data/{version}/tooling/query/?q=Select Id, Name, Content, UserId, CreatedDate, LastModifiedDate from IDEWorkspace
 ```
 ## Supported Versions
 39.0, 40.0, 41.0, 42.0
@@ -28,7 +28,7 @@ Query request for all IDEWorkspace records. NOTE: This is used internally by the
     {
       "attributes": {
         "type": "IDEWorkspace",
-        "url": "/services/data/v42.0/tooling/sobjects/IDEWorkspace/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/IDEWorkspace/{ID}"
       },
       "Id": "{ID}",
       "Name": "DefaultWorkspace",

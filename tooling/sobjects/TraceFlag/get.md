@@ -3,11 +3,11 @@ Simple request of an TraceFlag Get
 
 ## PATH
 ```
-/services/data/v42.0/tooling/sobjects/TraceFlag/{ID}
+/services/data/{version}/tooling/sobjects/TraceFlag/{ID}
 ```
 
 ## Supported Versions
-39.0, 40.0, 41.0, 42.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -22,7 +22,7 @@ Get details for a specific TraceFlag record.
 {
   "attributes": {
     "type": "TraceFlag",
-    "url": "/services/data/v41.0/tooling/sobjects/TraceFlag/{ID}"
+    "url": "/services/data/{version}/tooling/sobjects/TraceFlag/{ID}"
   },
   "Id": "{ID}",
   "IsDeleted": false,

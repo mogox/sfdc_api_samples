@@ -3,10 +3,10 @@ Simple request of an DebugLevel Get
 
 ## PATH
 ```
-/services/data/v42.0/tooling/sobjects/DebugLevel/{ID}
+/services/data/{version}/tooling/sobjects/DebugLevel/{ID}
 ```
 ## Supported Versions
-39.0, 40.0, 41.0, 42.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -21,7 +21,7 @@ Get details for a specific DebugLevel record.
 {
   "attributes": {
     "type": "DebugLevel",
-    "url": "/services/data/v42.0/tooling/sobjects/DebugLevel/{ID}"
+    "url": "/services/data/{version}/tooling/sobjects/DebugLevel/{ID}"
   },
   "Id": "{ID}",
   "IsDeleted": false,

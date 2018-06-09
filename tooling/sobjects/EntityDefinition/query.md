@@ -3,10 +3,10 @@ Simple request of an EntityDefinition record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=SELECT DurableId, QualifiedApiName, RecordTypesSupported from EntityDefinition where QualifiedApiName = 'Campaign'
+/services/data/{version}/tooling/query/?q=SELECT DurableId, QualifiedApiName, RecordTypesSupported from EntityDefinition where QualifiedApiName = 'Campaign'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -36,7 +36,7 @@ Simple request of an EntityDefinition record
       },
       "attributes": {
         "type": "EntityDefinition",
-        "url": "/services/data/v39.0/tooling/sobjects/EntityDefinition/Campaign"
+        "url": "/services/data/{version}/tooling/sobjects/EntityDefinition/Campaign"
       }
     }
   ],

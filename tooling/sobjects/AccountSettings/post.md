@@ -3,10 +3,10 @@ POST Request for AccountSettings
 
 ## PATH
 ```
-/services/data/v40.0/tooling/sobjects/AccountSettings
+/services/data/{version}/tooling/sobjects/AccountSettings
 ```
 ## Supported Versions
-39.0, 40.0
+38.0, 39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json

@@ -3,11 +3,11 @@ Query request of an ContainerAsyncRequest record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select Id, MetadataContainerId, State, IsCheckOnly, IsDeleted, IsRunTests, ErrorMsg From ContainerAsyncRequest where Id = '{ID}'
+/services/data/{version}/tooling/query/?q=Select Id, MetadataContainerId, State, IsCheckOnly, IsDeleted, IsRunTests, ErrorMsg From ContainerAsyncRequest where Id = '{ID}'
 ```
 
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -31,7 +31,7 @@ Query request of an ContainerAsyncRequest record
       "State": "Completed",
       "attributes": {
         "type": "ContainerAsyncRequest",
-        "url": "/services/data/v39.0/tooling/sobjects/ContainerAsyncRequest/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/ContainerAsyncRequest/{ID}"
       }
     }
   ],

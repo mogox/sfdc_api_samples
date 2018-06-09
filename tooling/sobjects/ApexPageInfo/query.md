@@ -3,10 +3,10 @@ QUERY request of a ApexPageInfo record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=select Id, ApexPageId, Name, NameSpacePrefix, ApiVersion, Description, IsAvailableInTouch, MasterLabel, DurableId from ApexPageInfo where ApexPageId = {ApexPage ID}
+/services/data/{version}/tooling/query/?q=select Id, ApexPageId, Name, NameSpacePrefix, ApiVersion, Description, IsAvailableInTouch, MasterLabel, DurableId from ApexPageInfo where ApexPageId = {ApexPage ID}
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -34,7 +34,7 @@ ApexPageInfo is a read-only object that exposes information about ApexPage.
       "NameSpacePrefix": null,
       "attributes": {
         "type": "ApexPageInfo",
-        "url": "/services/data/v39.0/tooling/sobjects/ApexPageInfo/{DurableID}"
+        "url": "/services/data/{version}/tooling/sobjects/ApexPageInfo/{DurableID}"
       }
     }
   ],

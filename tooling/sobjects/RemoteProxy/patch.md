@@ -3,10 +3,10 @@ PATCH Request for RemoteProxy
 
 ## PATH
 ```
-/services/data/v40.0/tooling/sobjects/RemoteProxy/{ID}
+/services/data/{version}/tooling/sobjects/RemoteProxy/{ID}
 ```
 ## Supported Versions
-39.0, 40.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json

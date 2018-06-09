@@ -3,10 +3,10 @@ Simple request of an StandardValueSet record
 
 ## PATH
 ```
-/services/data/v40.0/tooling/query/?q=Select Fullname, MasterLabel, DurableId, Metadata from StandardValueSet where DurableId = '{StandardValueSet Name}'
+/services/data/{version}/tooling/query/?q=Select Fullname, MasterLabel, DurableId, Metadata from StandardValueSet where DurableId = '{StandardValueSet Name}'
 ```
 ## Supported Versions
-39.0, 40.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -113,7 +113,7 @@ Simple request of an StandardValueSet record
       },
       "attributes": {
         "type": "StandardValueSet",
-        "url": "/services/data/v40.0/tooling/sobjects/StandardValueSet/{StandardValueSet Name}"
+        "url": "/services/data/{version}/tooling/sobjects/StandardValueSet/{StandardValueSet Name}"
       }
     }
   ],

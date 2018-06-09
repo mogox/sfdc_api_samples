@@ -3,10 +3,10 @@ Simple request of an CustomObject record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select Id, DeveloperName, NamespacePrefix From CustomObject
+/services/data/{version}/tooling/query/?q=Select Id, DeveloperName, NamespacePrefix From CustomObject
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -26,7 +26,7 @@ Simple request of an CustomObject record
       "NamespacePrefix": null,
       "attributes": {
         "type": "CustomObject",
-        "url": "/services/data/v39.0/tooling/sobjects/CustomObject/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/CustomObject/{ID}"
       }
     }
   ],

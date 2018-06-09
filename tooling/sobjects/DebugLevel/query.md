@@ -3,7 +3,7 @@ Simple request of an DebugLevel record
 
 ## PATH
 ```
-/services/data/v42.0/tooling/query/?q=Select Id, IsDeleted, DeveloperName, Language, MasterLabel, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, Workflow, Validation, Callout, ApexCode, ApexProfiling, Visualforce, System, Database, Wave from DebugLevel
+/services/data/{version}/tooling/query/?q=Select Id, IsDeleted, DeveloperName, Language, MasterLabel, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, Workflow, Validation, Callout, ApexCode, ApexProfiling, Visualforce, System, Database, Wave from DebugLevel
 ```
 ## Supported Versions
 39.0, 40.0, 41.0, 42.0
@@ -28,7 +28,7 @@ Query for all existing DebugLevel records.
     {
       "attributes": {
         "type": "DebugLevel",
-        "url": "/services/data/v42.0/tooling/sobjects/DebugLevel/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/DebugLevel/{ID}"
       },
       "Id": "{ID}",
       "IsDeleted": false,

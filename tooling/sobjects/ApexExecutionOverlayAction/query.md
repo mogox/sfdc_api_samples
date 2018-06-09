@@ -3,10 +3,10 @@ Simple request of an ApexExecutionOverlayAction record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select Id, ScopeId, IsDumpingHeap, ActionScriptType, ExecutableEntityId, Line, Iteration, ExpirationDate, ActionScript from ApexExecutionOverlayAction where Id = '{Id}'
+/services/data/{version}/tooling/query/?q=Select Id, ScopeId, IsDumpingHeap, ActionScriptType, ExecutableEntityId, Line, Iteration, ExpirationDate, ActionScript from ApexExecutionOverlayAction where Id = '{Id}'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -32,7 +32,7 @@ Simple request of an ApexExecutionOverlayAction record
       "ScopeId": "{UserID}",
       "attributes": {
         "type": "ApexExecutionOverlayAction",
-        "url": "/services/data/v39.0/tooling/sobjects/ApexExecutionOverlayAction/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/ApexExecutionOverlayAction/{ID}"
       }
     }
   ],

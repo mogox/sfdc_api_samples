@@ -3,10 +3,10 @@ Simple request of an AddressSettings record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select Id, DurableId, CountriesAndStatesId, Metadata, Fullname from AddressSettings where DurableId = '{DurableId}'
+/services/data/{version}/tooling/query/?q=Select Id, DurableId, CountriesAndStatesId, Metadata, Fullname from AddressSettings where DurableId = '{DurableId}'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -26,7 +26,7 @@ Simple request of an AddressSettings record
       "Id": "000000000000000AAA",
       "attributes": {
         "type": "AddressSettings",
-        "url": "/services/data/v39.0/tooling/sobjects/AddressSettings/{DurableId}"
+        "url": "/services/data/{version}/tooling/sobjects/AddressSettings/{DurableId}"
       }
     }
   ],

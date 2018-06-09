@@ -3,10 +3,10 @@ Simple request of an SandboxInfo record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select Id, SandboxName, LicenseType, AutoActivate, CopyChatter, CreatedDate, Description, HistoryDays, OnDemandRefresh from SandboxInfo where Id = '{ID}'
+/services/data/{version}/tooling/query/?q=Select Id, SandboxName, LicenseType, AutoActivate, CopyChatter, CreatedDate, Description, HistoryDays, OnDemandRefresh from SandboxInfo where Id = '{ID}'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -35,7 +35,7 @@ Query request for a SandboxInfo record. You can query for all the sandboxes by r
       "SandboxName": "sbox",
       "attributes": {
         "type": "SandboxInfo",
-        "url": "/services/data/v39.0/tooling/sobjects/SandboxInfo/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/SandboxInfo/{ID}"
       }
     }
   ],

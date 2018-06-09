@@ -3,7 +3,7 @@ Simple request of an MetadataPackage Get
 
 ## PATH
 ```
-/services/data/v42.0/tooling/sobjects/MetadataPackage/{ID}
+/services/data/{version}/tooling/sobjects/MetadataPackage/{ID}
 ```
 ## Supported Versions
 39.0, 40.0, 41.0, 42.0
@@ -21,7 +21,7 @@ Get details for a specific MetadataPackage record.
 {
   "attributes": {
     "type": "MetadataPackage",
-    "url": "/services/data/v42.0/tooling/sobjects/MetadataPackage/{ID}"
+    "url": "/services/data/{version}/tooling/sobjects/MetadataPackage/{ID}"
   },
   "Id": "{ID}",
   "Name": "{Package_Name}",

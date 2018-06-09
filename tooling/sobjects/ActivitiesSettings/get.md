@@ -3,10 +3,10 @@ Simple request of an ActivitiesSettings Get
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/ActivitiesSettings/{DurableId}
+/services/data/{version}/tooling/sobjects/ActivitiesSettings/{DurableId}
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json

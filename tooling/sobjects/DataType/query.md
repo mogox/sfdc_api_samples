@@ -3,10 +3,10 @@ Simple request of an DataType record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=select Id, DurableId from DataType
+/services/data/{version}/tooling/query/?q=select Id, DurableId from DataType
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -25,7 +25,7 @@ Simple request of an DataType record
       "Id": "{ID}",
       "attributes": {
         "type": "DataType",
-        "url": "/services/data/v39.0/tooling/sobjects/DataType/string"
+        "url": "/services/data/{version}/tooling/sobjects/DataType/string"
       }
     },
     {
@@ -33,7 +33,7 @@ Simple request of an DataType record
       "Id": "{ID}",
       "attributes": {
         "type": "DataType",
-        "url": "/services/data/v39.0/tooling/sobjects/DataType/boolean"
+        "url": "/services/data/{version}/tooling/sobjects/DataType/boolean"
       }
     },
     {
@@ -41,7 +41,7 @@ Simple request of an DataType record
       "Id": "{ID}",
       "attributes": {
         "type": "DataType",
-        "url": "/services/data/v39.0/tooling/sobjects/DataType/integer"
+        "url": "/services/data/{version}/tooling/sobjects/DataType/integer"
       }
     }
   ],

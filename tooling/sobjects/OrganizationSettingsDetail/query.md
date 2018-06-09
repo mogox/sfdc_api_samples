@@ -3,10 +3,10 @@ Simple request of an OrganizationSettingsDetail record
 
 ## PATH
 ```
-/services/data/v41.0/tooling/query/?q=select id, DurableId, SettingValue, SettingName from OrganizationSettingsDetail
+/services/data/{version}/tooling/query/?q=select id, DurableId, SettingValue, SettingName from OrganizationSettingsDetail
 ```
 ## Supported Versions
-39.0, 40.0, 41.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -25,7 +25,7 @@ Simple request of an OrganizationSettingsDetail record
     {
       "attributes": {
         "type": "OrganizationSettingsDetail",
-        "url": "/services/data/v41.0/tooling/sobjects/OrganizationSettingsDetail/{DurableId}"
+        "url": "/services/data/{version}/tooling/sobjects/OrganizationSettingsDetail/{DurableId}"
       },
       "Id": "{ID}",
       "DurableId": "{DurableId}",

@@ -3,10 +3,10 @@ Simple request of an AccountSetting record
 
 ## PATH
 ```
-/services/data/v40.0/tooling/query?q=Select DurableId from AccountSettings
+/services/data/{version}/tooling/query?q=Select DurableId from AccountSettings
 ```
 ## Supported Versions
-39.0, 40.0
+38.0, 39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -24,7 +24,7 @@ Simple request of an AccountSetting record
   "records" : [ {
     "attributes" : {
       "type" : "AccountSettings",
-      "url" : "/services/data/v39.0/tooling/sobjects/AccountSettings/{DurableId}"
+      "url" : "/services/data/{version}/tooling/sobjects/AccountSettings/{DurableId}"
     },
     "DurableId" : "{DurableId}"
   } ]

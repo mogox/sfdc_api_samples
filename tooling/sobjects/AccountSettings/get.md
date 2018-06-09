@@ -3,10 +3,10 @@ Simple request of an AccountSettings Get
 
 ## PATH
 ```
-/services/data/v40.0/tooling/sobjects/AccountSettings/{DurableId}
+/services/data/{version}/tooling/sobjects/AccountSettings/{DurableId}
 ```
 ## Supported Versions
-39.0, 40.0
+38.0, 39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -18,7 +18,7 @@ Simple request of an AccountSettings Get
 {
   "attributes" : {
     "type" : "AccountSettings",
-    "url" : "/services/data/v39.0/tooling/sobjects/AccountSettings/{DurableId}"
+    "url" : "/services/data/{version}/tooling/sobjects/AccountSettings/{DurableId}"
   },
   "Id" : "000000000000000AAA",
   "DurableId" : "{DurableId}",

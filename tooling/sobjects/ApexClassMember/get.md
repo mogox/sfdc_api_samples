@@ -3,10 +3,10 @@ Simple request of an ApexClassMember Get
 
 ## PATH
 ```
-/services/data/v42.0/tooling/sobjects/ApexClassMember/{ID}
+/services/data/{version}/tooling/sobjects/ApexClassMember/{ID}
 ```
 ## Supported Versions
-39.0, 40.0, 41.0, 42.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -27,7 +27,7 @@ Simple request of an ApexClassMember Get
       "MetadataContainerId": "{MetadataContainerId}",
       "attributes": {
         "type": "ApexClassMember",
-        "url": "/services/data/v42.0/tooling/sobjects/ApexClassMember/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/ApexClassMember/{ID}"
       }
     }
   ],

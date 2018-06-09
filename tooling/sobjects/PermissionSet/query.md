@@ -3,10 +3,10 @@ Simple request of an PermissionSet record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q= select Id, Name, Label from PermissionSet where PermissionsApiEnabled = true
+/services/data/{version}/tooling/query/?q= select Id, Name, Label from PermissionSet where PermissionsApiEnabled = true
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -29,7 +29,7 @@ Query for all the PermissionSets that have API access enabled.
       "Name": "Apiato_PermSet",
       "attributes": {
         "type": "PermissionSet",
-        "url": "/services/data/v39.0/tooling/sobjects/PermissionSet/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/PermissionSet/{ID}"
       }
     },
     {
@@ -38,7 +38,7 @@ Query for all the PermissionSets that have API access enabled.
       "Name": "Apiato_Admin_PermSet",
       "attributes": {
         "type": "PermissionSet",
-        "url": "/services/data/v39.0/tooling/sobjects/PermissionSet/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/PermissionSet/{ID}"
       }
     }
   ],

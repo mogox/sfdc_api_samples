@@ -3,10 +3,10 @@ Simple request of an TraceFlag record
 
 ## PATH
 ```
-/services/data/v42.0/tooling/query/?q=Select Id, ApexCode, ApexProfiling, Callout, Database, DebugLevelId, StartDate, System, TracedEntityId, Validation, Visualforce, Workflow, LogType, ExpirationDate, CreatedDate from TraceFlag
+/services/data/{version}/tooling/query/?q=Select Id, ApexCode, ApexProfiling, Callout, Database, DebugLevelId, StartDate, System, TracedEntityId, Validation, Visualforce, Workflow, LogType, ExpirationDate, CreatedDate from TraceFlag
 ```
 ## Supported Versions
-39.0, 40.0, 41.0, 42.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -28,7 +28,7 @@ Query request for all existing TraceFlag records.
     {
       "attributes": {
         "type": "TraceFlag",
-        "url": "/services/data/v42.0/tooling/sobjects/TraceFlag/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/TraceFlag/{ID}"
       },
       "Id": "{ID}",
       "ApexCode": "FINEST",

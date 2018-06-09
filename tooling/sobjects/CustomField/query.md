@@ -3,10 +3,10 @@ Simple request of an CustomField record
 
 ## PATH
 ```
-/services/data/v40.0/tooling/query/?q=Select Id, DeveloperName, NamespacePrefix, TableEnumOrId From CustomField Where TableEnumOrId = '{Object Name}' and DeveloperName = '{Field DeveloperName}'
+/services/data/{version}/tooling/query/?q=Select Id, DeveloperName, NamespacePrefix, TableEnumOrId From CustomField Where TableEnumOrId = '{Object Name}' and DeveloperName = '{Field DeveloperName}'
 ```
 ## Supported Versions
-39.0, 40.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -27,7 +27,7 @@ Simple request of an CustomField record
       "TableEnumOrId": "{Object Name}",
       "attributes": {
         "type": "CustomField",
-        "url": "/services/data/v39.0/tooling/sobjects/CustomField/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/CustomField/{ID}"
       }
     }
   ],

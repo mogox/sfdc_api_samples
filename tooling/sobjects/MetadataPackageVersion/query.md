@@ -3,7 +3,7 @@ Simple request of an MetadataPackageVersion record
 
 ## PATH
 ```
-/services/data/v42.0/tooling/query/?q=Select Id, MetadataPackageId, Name, ReleaseState, MajorVersion, MinorVersion, PatchVersion, BuildNumber from MetadataPackageVersion
+/services/data/{version}/tooling/query/?q=Select Id, MetadataPackageId, Name, ReleaseState, MajorVersion, MinorVersion, PatchVersion, BuildNumber from MetadataPackageVersion
 ```
 ## Supported Versions
 39.0, 40.0, 41.0, 42.0
@@ -28,7 +28,7 @@ Query request for the MetadataPackageVersion records.
     {
       "attributes": {
         "type": "MetadataPackageVersion",
-        "url": "/services/data/v42.0/tooling/sobjects/MetadataPackageVersion/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/MetadataPackageVersion/{ID}"
       },
       "Id": "{ID}",
       "MetadataPackageId": "{MetadataPackageID}",

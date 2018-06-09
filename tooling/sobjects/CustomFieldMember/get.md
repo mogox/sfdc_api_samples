@@ -3,10 +3,10 @@ GET request for CustomFieldMember record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/CustomFieldMember/{ID}
+/services/data/{version}/tooling/sobjects/CustomFieldMember/{ID}
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -84,7 +84,7 @@ GET request for CustomFieldMember record
   "SystemModstamp": "2017-04-25T17:25:13.000+0000",
   "attributes": {
     "type": "CustomFieldMember",
-    "url": "/services/data/v39.0/tooling/sobjects/CustomFieldMember/{ID}"
+    "url": "/services/data/{version}/tooling/sobjects/CustomFieldMember/{ID}"
   }
 }
 ```

@@ -3,10 +3,10 @@ Simple request of an SandboxProcess Get
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/SandboxProcess/{ID}
+/services/data/{version}/tooling/sobjects/SandboxProcess/{ID}
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -43,7 +43,7 @@ Simple request of an SandboxProcess Get
   "TemplateId": null,
   "attributes": {
     "type": "SandboxProcess",
-    "url": "/services/data/v39.0/tooling/sobjects/SandboxProcess/{ID}"
+    "url": "/services/data/{version}/tooling/sobjects/SandboxProcess/{ID}"
   }
 }
 ```

@@ -3,10 +3,10 @@ Delete request of an ApexComponentMember record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/ApexComponentMember/{ID}
+/services/data/{version}/tooling/sobjects/ApexComponentMember/{ID}
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json

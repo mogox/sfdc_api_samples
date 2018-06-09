@@ -3,10 +3,10 @@ Get request of an ApexComponent record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/ApexComponent/{Id}
+/services/data/{version}/tooling/sobjects/ApexComponent/{Id}
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -33,7 +33,7 @@ Get request of an ApexComponent record
   "SystemModstamp": "2017-03-28T00:56:50.000+0000",
   "attributes": {
     "type": "ApexComponent",
-    "url": "/services/data/v39.0/tooling/sobjects/ApexComponent/{ID}"
+    "url": "/services/data/{version}/tooling/sobjects/ApexComponent/{ID}"
   }
 }
 ```

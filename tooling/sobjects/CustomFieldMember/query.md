@@ -3,11 +3,11 @@ Query request of an CustomFieldMember record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select Id, FullName, Metadata, MetadataContainerId, IsDeleted  From CustomFieldMember where Id = '{ID}'
+/services/data/{version}/tooling/query/?q=Select Id, FullName, Metadata, MetadataContainerId, IsDeleted  From CustomFieldMember where Id = '{ID}'
 ```
 
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -82,7 +82,7 @@ Query request of an CustomFieldMember record
       "MetadataContainerId": "{MetadataContainer ID}",
       "attributes": {
         "type": "CustomFieldMember",
-        "url": "/services/data/v39.0/tooling/sobjects/CustomFieldMember/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/CustomFieldMember/{ID}"
       }
     }
   ],

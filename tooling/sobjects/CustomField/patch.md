@@ -3,10 +3,10 @@ PATCH request of an CustomField record
 
 ## PATH
 ```
-/services/data/v40.0/tooling/sobjects/CustomField/{ID}
+/services/data/{version}/tooling/sobjects/CustomField/{ID}
 ```
 ## Supported Versions
-39.0, 40.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json

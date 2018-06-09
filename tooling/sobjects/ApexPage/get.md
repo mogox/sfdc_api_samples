@@ -3,10 +3,10 @@ GET request of a ApexPage record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/ApexPage/{ID}
+/services/data/{version}/tooling/sobjects/ApexPage/{ID}
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -45,7 +45,7 @@ GET request of a ApexPage record
   "SystemModstamp": "2017-04-26T17:54:52.000+0000",
   "attributes": {
     "type": "ApexPage",
-    "url": "/services/data/v39.0/tooling/sobjects/ApexPage/{ID}"
+    "url": "/services/data/{version}/tooling/sobjects/ApexPage/{ID}"
   }
 }
 ```

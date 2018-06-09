@@ -3,10 +3,10 @@ Simple request of an MetadataContainer Get
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/MetadataContainer/{ID}
+/services/data/{version}/tooling/sobjects/MetadataContainer/{ID}
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -25,7 +25,7 @@ Simple request of an MetadataContainer Get
   "SystemModstamp": "2017-01-11T07:26:16.000+0000",
   "attributes": {
     "type": "MetadataContainer",
-    "url": "/services/data/v39.0/tooling/sobjects/MetadataContainer/{ID}"
+    "url": "/services/data/{version}/tooling/sobjects/MetadataContainer/{ID}"
   }
 }
 ```

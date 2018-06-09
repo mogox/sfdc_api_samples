@@ -3,10 +3,10 @@ Simple request of an ApexCodeCoverageAggregate record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select Id, ApexClassorTriggerId, NumLinesCovered, NumLinesUncovered, Coverage, CoverageLastModifiedDate from ApexCodeCoverageAggregate where ApexClassorTriggerId = '{ApexClassorTriggerId}'
+/services/data/{version}/tooling/query/?q=Select Id, ApexClassorTriggerId, NumLinesCovered, NumLinesUncovered, Coverage, CoverageLastModifiedDate from ApexCodeCoverageAggregate where ApexClassorTriggerId = '{ApexClassorTriggerId}'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -36,7 +36,7 @@ Simple request of an ApexCodeCoverageAggregate record
       "NumLinesUncovered": 0,
       "attributes": {
         "type": "ApexCodeCoverageAggregate",
-        "url": "/services/data/v39.0/tooling/sobjects/ApexCodeCoverageAggregate/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/ApexCodeCoverageAggregate/{ID}"
       }
     }
   ],

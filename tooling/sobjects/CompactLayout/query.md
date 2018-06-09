@@ -3,10 +3,10 @@ Simple request of an CompactLayout record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=SELECT Label, DeveloperName, EntityDefinition.Label, EntityDefinition.DurableId FROM CompactLayoutInfo where EntityDefinition.DurableId = 'Account'
+/services/data/{version}/tooling/query/?q=SELECT Label, DeveloperName, EntityDefinition.Label, EntityDefinition.DurableId FROM CompactLayoutInfo where EntityDefinition.DurableId = 'Account'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -27,13 +27,13 @@ Simple request of an CompactLayout record
         "Label": "Account",
         "attributes": {
           "type": "EntityDefinition",
-          "url": "/services/data/v39.0/tooling/sobjects/EntityDefinition/Account"
+          "url": "/services/data/{version}/tooling/sobjects/EntityDefinition/Account"
         }
       },
       "Label": "System Default",
       "attributes": {
         "type": "CompactLayoutInfo",
-        "url": "/services/data/v39.0/tooling/sobjects/CompactLayoutInfo/Account.SYSTEM"
+        "url": "/services/data/{version}/tooling/sobjects/CompactLayoutInfo/Account.SYSTEM"
       }
     }
   ],

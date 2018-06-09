@@ -3,10 +3,10 @@ Simple request of an StandardAction record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=select Name from StandardAction where EntityDefinition.QualifiedApiName = 'Account'
+/services/data/{version}/tooling/query/?q=select Name from StandardAction where EntityDefinition.QualifiedApiName = 'Account'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -24,21 +24,21 @@ Simple request of an StandardAction record
       "Name": "Edit",
       "attributes": {
         "type": "StandardAction",
-        "url": "/services/data/v39.0/tooling/sobjects/StandardAction/Account.Edit"
+        "url": "/services/data/{version}/tooling/sobjects/StandardAction/Account.Edit"
       }
     },
     {
       "Name": "New",
       "attributes": {
         "type": "StandardAction",
-        "url": "/services/data/v39.0/tooling/sobjects/StandardAction/Account.New"
+        "url": "/services/data/{version}/tooling/sobjects/StandardAction/Account.New"
       }
     },
     {
       "Name": "Delete",
       "attributes": {
         "type": "StandardAction",
-        "url": "/services/data/v39.0/tooling/sobjects/StandardAction/Account.Delete"
+        "url": "/services/data/{version}/tooling/sobjects/StandardAction/Account.Delete"
       }
     }
   ],

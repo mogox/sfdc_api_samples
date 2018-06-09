@@ -3,10 +3,10 @@ Simple request of an EntityParticle Get
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/EntityParticle/
+/services/data/{version}/tooling/sobjects/EntityParticle/
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -41,10 +41,10 @@ Simple request of an EntityParticle Get
     "undeletable": false,
     "updateable": false,
     "urls": {
-      "defaultValues": "/services/data/v39.0/tooling/sobjects/EntityParticle/defaultValues?recordTypeId&fields",
-      "describe": "/services/data/v39.0/tooling/sobjects/EntityParticle/describe",
-      "rowTemplate": "/services/data/v39.0/tooling/sobjects/EntityParticle/{ID}",
-      "sobject": "/services/data/v39.0/tooling/sobjects/EntityParticle"
+      "defaultValues": "/services/data/{version}/tooling/sobjects/EntityParticle/defaultValues?recordTypeId&fields",
+      "describe": "/services/data/{version}/tooling/sobjects/EntityParticle/describe",
+      "rowTemplate": "/services/data/{version}/tooling/sobjects/EntityParticle/{ID}",
+      "sobject": "/services/data/{version}/tooling/sobjects/EntityParticle"
     }
   },
   "recentItems": []

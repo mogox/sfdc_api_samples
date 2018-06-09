@@ -3,10 +3,10 @@ Simple request of an FieldDefinition record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select QualifiedApiName, RelationshipName, ReferenceTo, ReferenceTargetField from FieldDefinition where EntityDefinition.QualifiedApiName = 'Contact' and QualifiedApiName = 'AccountId'
+/services/data/{version}/tooling/query/?q=Select QualifiedApiName, RelationshipName, ReferenceTo, ReferenceTargetField from FieldDefinition where EntityDefinition.QualifiedApiName = 'Contact' and QualifiedApiName = 'AccountId'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -31,7 +31,7 @@ Simple request of an FieldDefinition record
       "RelationshipName": "Account",
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v39.0/tooling/sobjects/FieldDefinition/Contact.Account"
+        "url": "/services/data/{version}/tooling/sobjects/FieldDefinition/Contact.Account"
       }
     }
   ],

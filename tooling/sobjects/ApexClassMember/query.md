@@ -3,10 +3,10 @@ Simple request of an ApexClassMember record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select Id, IsDeleted, MetadataContainerId, Body, SymbolTable, Metadata, FullName from ApexClassMember where Id = '{Id}'
+/services/data/{version}/tooling/query/?q=Select Id, IsDeleted, MetadataContainerId, Body, SymbolTable, Metadata, FullName from ApexClassMember where Id = '{Id}'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -35,7 +35,7 @@ Simple request of an ApexClassMember record
       "SymbolTable": null,
       "attributes": {
         "type": "ApexClassMember",
-        "url": "/services/data/v39.0/tooling/sobjects/ApexClassMember/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/ApexClassMember/{ID}"
       }
     }
   ],

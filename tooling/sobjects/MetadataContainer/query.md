@@ -3,10 +3,10 @@ Simple request of an MetadataContainer record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=select Id, Name, CreatedDate, CreatedById, IsDeleted, LastModifiedDate, LastModifiedById, SystemModstamp from MetadataContainer where Id = '{ID}'
+/services/data/{version}/tooling/query/?q=select Id, Name, CreatedDate, CreatedById, IsDeleted, LastModifiedDate, LastModifiedById, SystemModstamp from MetadataContainer where Id = '{ID}'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -26,7 +26,7 @@ Simple request of an MetadataContainer record
       "Name": "MDContainer_RandomName",
       "attributes": {
         "type": "MetadataContainer",
-        "url": "/services/data/v39.0/tooling/sobjects/MetadataContainer/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/MetadataContainer/{ID}"
       }
     }
   ],

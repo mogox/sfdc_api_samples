@@ -3,10 +3,10 @@ Simple request of an ActivitiesSettings record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query?q=Select DurableId from ActivitiesSettings
+/services/data/{version}/tooling/query?q=Select DurableId from ActivitiesSettings
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -24,7 +24,7 @@ Simple request of an ActivitiesSettings record
   "records" : [ {
     "attributes" : {
       "type" : "ActivitiesSettings",
-      "url" : "/services/data/v39.0/tooling/sobjects/ActivitiesSettings/{DurableId}"
+      "url" : "/services/data/{version}/tooling/sobjects/ActivitiesSettings/{DurableId}"
     },
     "DurableId" : "{DurableId}"
   } ]

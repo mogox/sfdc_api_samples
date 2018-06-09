@@ -3,7 +3,7 @@ Simple request of an ApexDebuggerSession record
 
 ## PATH
 ```
-/services/data/v42.0/tooling/query/?q=Select Id, Name, Status, StatusUsername, StatusMessage, StatusBy, UserIdFilter, LicenseOrg, License, LicenseType, CreatedDate, LastModifiedDate from ApexDebuggerSession
+/services/data/{version}/tooling/query/?q=Select Id, Name, Status, StatusUsername, StatusMessage, StatusBy, UserIdFilter, LicenseOrg, License, LicenseType, CreatedDate, LastModifiedDate from ApexDebuggerSession
 ```
 ## Supported Versions
 39.0, 40.0, 41.0, 42.0
@@ -27,7 +27,7 @@ Query request for ApexDebuggerSession records.
   "records" : [ {
     "attributes" : {
       "type" : "ApexDebuggerSession",
-      "url" : "/services/data/v42.0/tooling/sobjects/ApexDebuggerSession/{ID}"
+      "url" : "/services/data/{version}/tooling/sobjects/ApexDebuggerSession/{ID}"
     },
     "Id": "{ID}",
     "Name": "Sample_Name",

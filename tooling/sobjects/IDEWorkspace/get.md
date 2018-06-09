@@ -3,7 +3,7 @@ Simple request of an IDEWorkspace Get
 
 ## PATH
 ```
-/services/data/v42.0/tooling/sobjects/IDEWorkspace/{ID}
+/services/data/{version}/tooling/sobjects/IDEWorkspace/{ID}
 ```
 ## Supported Versions
 39.0, 40.0, 41.0, 42.0
@@ -21,7 +21,7 @@ Get details for a specific IDEWorkspace record. NOTE: This is used internally by
 {
   "attributes": {
     "type": "IDEWorkspace",
-    "url": "/services/data/v42.0/tooling/sobjects/IDEWorkspace/{ID}"
+    "url": "/services/data/{version}/tooling/sobjects/IDEWorkspace/{ID}"
   },
   "Id": "{ID}",
   "IsDeleted": false,

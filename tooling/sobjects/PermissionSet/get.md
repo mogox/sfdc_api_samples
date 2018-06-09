@@ -3,10 +3,10 @@ Simple request of an PermissionSet Get
 
 ## PATH
 ```
-/services/data/v39.0/tooling/sobjects/PermissionSet/{ID}
+/services/data/{version}/tooling/sobjects/PermissionSet/{ID}
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -165,7 +165,7 @@ Simple request of an PermissionSet Get
   "SystemModstamp": "2017-02-11T08:32:27.000+0000",
   "attributes": {
     "type": "PermissionSet",
-    "url": "/services/data/v39.0/tooling/sobjects/PermissionSet/{ID}"
+    "url": "/services/data/{version}/tooling/sobjects/PermissionSet/{ID}"
   }
 }
 ```

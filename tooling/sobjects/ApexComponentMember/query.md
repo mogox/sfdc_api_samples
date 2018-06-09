@@ -3,10 +3,10 @@ Simple request of an ApexComponentMember record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select Id, IsDeleted, MetadataContainerId, Body, Metadata, FullName from ApexComponentMember where Id = '{Id}'
+/services/data/{version}/tooling/query/?q=Select Id, IsDeleted, MetadataContainerId, Body, Metadata, FullName from ApexComponentMember where Id = '{Id}'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -35,7 +35,7 @@ Simple request of an ApexComponentMember record
       "MetadataContainerId": "{MetadataContainerId}",
       "attributes": {
         "type": "ApexComponentMember",
-        "url": "/services/data/v39.0/tooling/sobjects/ApexComponentMember/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/ApexComponentMember/{ID}"
       }
     }
   ],

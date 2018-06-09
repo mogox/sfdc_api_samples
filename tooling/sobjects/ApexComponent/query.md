@@ -3,10 +3,10 @@ Query request of an ApexComponent record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select Id, Description, Markup, MasterLabel, Name, NamespacePrefix from ApexComponent where Id = '{Id}'
+/services/data/{version}/tooling/query/?q=Select Id, Description, Markup, MasterLabel, Name, NamespacePrefix from ApexComponent where Id = '{Id}'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -29,7 +29,7 @@ Query request of an ApexComponent record
       "NamespacePrefix": null,
       "attributes": {
         "type": "ApexComponent",
-        "url": "/services/data/v39.0/tooling/sobjects/ApexComponent/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/ApexComponent/{ID}"
       }
     }
   ],

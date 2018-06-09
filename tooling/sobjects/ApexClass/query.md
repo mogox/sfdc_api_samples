@@ -3,10 +3,10 @@ Simple request of an ApexClass record
 
 ## PATH
 ```
-/services/data/v42.0/tooling/query/?q=Select Id, Name, Body, FullName, Metadata from ApexClass where Id = '{ID}'
+/services/data/{version}/tooling/query/?q=Select Id, Name, Body, FullName, Metadata from ApexClass where Id = '{ID}'
 ```
 ## Supported Versions
-39.0, 40.0, 41.0, 42.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -27,7 +27,7 @@ Query request for the ApexClass record.
   "records" : [ {
     "attributes" : {
       "type" : "ApexClass",
-      "url" : "/services/data/v39.0/tooling/sobjects/ApexClass/{ID}"
+      "url" : "/services/data/{version}/tooling/sobjects/ApexClass/{ID}"
     },
     "Id" : "{ID}",
     "Name" : "ApiatoApexTestClass",

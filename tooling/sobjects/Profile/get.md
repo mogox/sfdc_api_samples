@@ -3,10 +3,10 @@ Simple request of an ApexClassMember Get
 
 ## PATH
 ```
-/services/data/v37.0/tooling/sobjects/Profile/{ID}
+/services/data/{version}/tooling/sobjects/Profile/{ID}
 ```
 ## Supported Versions
-37.0
+37.0, 38.0 39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -18,7 +18,7 @@ Simple request of an ApexClassMember Get
 {
   "attributes" : {
     "type" : "ApexClass",
-    "url" : "/services/data/v37.0/tooling/sobjects/Profile/{ID}"
+    "url" : "/services/data/{version}/tooling/sobjects/Profile/{ID}"
   },
   "Id" : "{ID}",
   "NamespacePrefix" : "Deskcom",

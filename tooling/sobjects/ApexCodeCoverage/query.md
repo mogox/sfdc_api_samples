@@ -3,10 +3,10 @@ Simple request of an ApexCodeCoverage record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query?q=Select Id, ApexClassOrTriggerId, TestMethodName, ApexTestClassId, Coverage from ApexCodeCoverage where ApexClassOrTriggerId = '{ApexClassOrTriggerId}'
+/services/data/{version}/tooling/query?q=Select Id, ApexClassOrTriggerId, TestMethodName, ApexTestClassId, Coverage from ApexCodeCoverage where ApexClassOrTriggerId = '{ApexClassOrTriggerId}'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -24,7 +24,7 @@ Simple request of an ApexCodeCoverage record
   "records" : [ {
     "attributes" : {
       "type" : "ApexCodeCoverage",
-      "url" : "/services/data/v39.0/tooling/sobjects/ApexCodeCoverage/{ID}"
+      "url" : "/services/data/{version}/tooling/sobjects/ApexCodeCoverage/{ID}"
     },
     "Id" : "{ID}",
     "ApexClassOrTriggerId" : "{ApexClassOrTriggerId}",

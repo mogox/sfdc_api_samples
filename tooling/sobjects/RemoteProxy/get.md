@@ -3,10 +3,10 @@ Simple request of an RemoteProxy Get
 
 ## PATH
 ```
-/services/data/v40.0/tooling/sobjects/RemoteProxy/{ID}
+/services/data/{version}/tooling/sobjects/RemoteProxy/{ID}
 ```
 ## Supported Versions
-39.0, 40.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -39,7 +39,7 @@ Simple request of an RemoteProxy Get
   "SystemModstamp": "2016-09-15T22:21:35.000+0000",
   "attributes": {
     "type": "RemoteProxy",
-    "url": "/services/data/v40.0/tooling/sobjects/RemoteProxy/{ID}"
+    "url": "/services/data/{version}/tooling/sobjects/RemoteProxy/{ID}"
   }
 }
 ```

@@ -3,10 +3,10 @@ PATCH request of an OrganizationSettingsDetail record
 
 ## PATH
 ```
-/services/data/v41.0/tooling/sobjects/OrganizationSettingsDetail/{DurableId}
+/services/data/{version}/tooling/sobjects/OrganizationSettingsDetail/{DurableId}
 ```
 ## Supported Versions
-39.0, 40.0, 41.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json

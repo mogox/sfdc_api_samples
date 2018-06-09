@@ -3,10 +3,10 @@ Simple request of an ApexClass Get
 
 ## PATH
 ```
-/services/data/v42.0/tooling/sobjects/ApexClass/{ID}
+/services/data/{version}/tooling/sobjects/ApexClass/{ID}
 ```
 ## Supported Versions
-39.0, 40.0, 41.0, 42.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -21,7 +21,7 @@ Get details for a specific ApexClass record.
 {
   "attributes" : {
     "type" : "ApexClass",
-    "url" : "/services/data/v42.0/tooling/sobjects/ApexClass/{ID}"
+    "url" : "/services/data/{version}/tooling/sobjects/ApexClass/{ID}"
   },
   "Id" : "{ID}",
   "NamespacePrefix" : null,

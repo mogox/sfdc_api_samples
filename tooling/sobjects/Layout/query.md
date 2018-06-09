@@ -3,7 +3,7 @@ Simple request of an Layout record
 
 ## PATH
 ```
-/services/data/v40.0/tooling/query/?q=select Id, EntityDefinitionId, Fullname, LayoutType, ManageableState, Metadata, Name, NamespacePrefix, ShowSubmitAndAttachButton, TableEnumOrId from Layout where Name = '{Layout Name}'
+/services/data/{version}/tooling/query/?q=select Id, EntityDefinitionId, Fullname, LayoutType, ManageableState, Metadata, Name, NamespacePrefix, ShowSubmitAndAttachButton, TableEnumOrId from Layout where Name = '{Layout Name}'
 ```
 ## Supported Versions
 39.0, 40.0
@@ -216,7 +216,7 @@ Simple request of an Layout record
       "TableEnumOrId": "{Object Id}",
       "attributes": {
         "type": "Layout",
-        "url": "/services/data/v40.0/tooling/sobjects/Layout/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/Layout/{ID}"
       }
     }
   ],

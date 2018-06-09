@@ -3,10 +3,10 @@ QUERY request of a ApexPage record
 
 ## PATH
 ```
-/services/data/v39.0/tooling/query/?q=Select Id, IsAvailableInTouch, IsConfirmationTokenRequired, FullName, Metadata, Markup, NamespacePrefix from ApexPage where Id = '{ID}'
+/services/data/{version}/tooling/query/?q=Select Id, IsAvailableInTouch, IsConfirmationTokenRequired, FullName, Metadata, Markup, NamespacePrefix from ApexPage where Id = '{ID}'
 ```
 ## Supported Versions
-39.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
@@ -38,7 +38,7 @@ QUERY request of a ApexPage record
       "NamespacePrefix": null,
       "attributes": {
         "type": "ApexPage",
-        "url": "/services/data/v39.0/tooling/sobjects/ApexPage/{ID}"
+        "url": "/services/data/{version}/tooling/sobjects/ApexPage/{ID}"
       }
     }
   ],
