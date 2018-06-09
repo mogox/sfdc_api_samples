@@ -18,7 +18,7 @@ Simple request of an Account record
 {
   "attributes": {
     "type": "Account",
-    "url": "/services/data/v38.0/sobjects/Account/{ID}"
+    "url": "/services/data/{version}/sobjects/Account/{ID}"
   },
   "id": "{ID}"
 }
