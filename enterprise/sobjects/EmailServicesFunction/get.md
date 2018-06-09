@@ -3,10 +3,10 @@ Simple request of an EmailServicesFunction record
 
 ## PATH
 ```
-/services/data/v40.0/sobjects/EmailServicesFunction/{ID}
+/services/data/{version}/sobjects/EmailServicesFunction/{ID}
 ```
 ## Supported Versions
-38.0, 39.0, 40.0
+38.0, 39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -24,7 +24,7 @@ Simple request of an EmailServicesFunction record
   "AuthorizedSenders": "gmail.com",
   "CreatedById": "{User_ID}",
   "CreatedDate": "2017-09-26T17:18:14.000+0000",
-  "ErrorRoutingAddress": "myuser@apiato.com",
+  "ErrorRoutingAddress": "myuser@sutro.com",
   "FunctionInactiveAction": "2",
   "FunctionName": "{EmailServiceName}",
   "Id": "{ID}",
@@ -39,7 +39,7 @@ Simple request of an EmailServicesFunction record
   "SystemModstamp": "2017-09-26T17:18:14.000+0000",
   "attributes": {
     "type": "EmailServicesFunction",
-    "url": "/services/data/v40.0/sobjects/EmailServicesFunction/{ID}"
+    "url": "/services/data/{version}/sobjects/EmailServicesFunction/{ID}"
   }
 }
 ```

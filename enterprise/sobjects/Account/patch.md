@@ -3,15 +3,15 @@ PATCH Request for Account
 
 ## PATH
 ```
-/services/data/v39.0/sobjects/Account/{ID}
+/services/data/{version}/sobjects/Account/{ID}
 ```
 ## Supported Versions
-38.0
+38.0, 39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
 {
-  "Name" : "Apiato Account"
+  "Name" : "Sutro Account"
 }
 
 ```

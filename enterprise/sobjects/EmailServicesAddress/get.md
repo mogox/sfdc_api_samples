@@ -3,10 +3,10 @@ Simple request of an EmailServicesAddress record
 
 ## PATH
 ```
-/services/data/v40.0/sobjects/EmailServicesAddress/{ID}
+/services/data/{version}/sobjects/EmailServicesAddress/{ID}
 ```
 ## Supported Versions
-38.0, 39.0, 40.0
+38.0, 39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -16,7 +16,7 @@ Simple request of an EmailServicesAddress record
 ## response
 ```json
 {
-  "AuthorizedSenders": "admin@apiato.com",
+  "AuthorizedSenders": "admin@sutro.com",
   "CreatedById": "{User_ID}",
   "CreatedDate": "2017-09-26T17:18:38.000+0000",
   "EmailDomainName": "{GeneratedEmailDomain}",
@@ -30,7 +30,7 @@ Simple request of an EmailServicesAddress record
   "SystemModstamp": "2017-09-26T17:24:20.000+0000",
   "attributes": {
     "type": "EmailServicesAddress",
-    "url": "/services/data/v40.0/sobjects/EmailServicesAddress/{ID}"
+    "url": "/services/data/{version}/sobjects/EmailServicesAddress/{ID}"
   }
 }
 ```

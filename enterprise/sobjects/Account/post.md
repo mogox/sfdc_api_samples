@@ -3,22 +3,22 @@ POST Request for Account
 
 ## PATH
 ```
-/services/data/v39.0/sobjects/Account
+/services/data/{version}/sobjects/Account
 ```
 ## Supported Versions
-38.0
+38.0, 39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
 {
-  "Name" : "Apiato Test Account"
+  "Name" : "Sutro Test Account"
 }
 
 ```
 ## response
 ```json
 {
-  "id" : "0014100000L0g4PAAR",
+  "id" : "{ID}",
   "success" : true,
   "errors" : [ ]
 }

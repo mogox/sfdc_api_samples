@@ -3,7 +3,7 @@ Simple request of an AcceptedEventRelation record
 
 ## PATH
 ```
-/services/data/v39.0/query/?q=Select eventId, type, response from AcceptedEventRelation where eventId = '{eventId}'
+/services/data/{version}/query/?q=Select eventId, type, response from AcceptedEventRelation where eventId = '{eventId}'
 ```
 ## Supported Versions
 39.0

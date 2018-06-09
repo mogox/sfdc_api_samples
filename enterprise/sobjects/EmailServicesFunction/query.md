@@ -3,10 +3,10 @@ Simple request of an EmailServicesFunction record
 
 ## PATH
 ```
-/services/data/v40.0/query/?q=Select Id, AddressInactiveAction, ApexClassId, AttachmentOption, AuthenticationFailureAction, AuthorizationFailureAction, AuthorizedSenders, ErrorRoutingAddress, FunctionInactiveAction, FunctionName, IsActive, IsAuthenticationRequired, IsErrorRoutingEnabled, IsTextAttachmentsAsBinary, IsTlsRequired, OverLimitAction  from EmailServicesFunction where Id = '{ID}'
+/services/data/{version}/query/?q=Select Id, AddressInactiveAction, ApexClassId, AttachmentOption, AuthenticationFailureAction, AuthorizationFailureAction, AuthorizedSenders, ErrorRoutingAddress, FunctionInactiveAction, FunctionName, IsActive, IsAuthenticationRequired, IsErrorRoutingEnabled, IsTextAttachmentsAsBinary, IsTlsRequired, OverLimitAction  from EmailServicesFunction where Id = '{ID}'
 ```
 ## Supported Versions
-38.0, 39.0, 40.0
+38.0, 39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -37,7 +37,7 @@ Simple request of an EmailServicesFunction record
       "OverLimitAction": "2",
       "attributes": {
         "type": "EmailServicesFunction",
-        "url": "/services/data/v40.0/sobjects/EmailServicesFunction/{ID}"
+        "url": "/services/data/{version}/sobjects/EmailServicesFunction/{ID}"
       }
     }
   ],

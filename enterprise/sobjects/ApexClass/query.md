@@ -3,10 +3,10 @@ Simple request of an ApexClass record
 
 ## PATH
 ```
-/services/data/v41.0/query/?q=Select Id, NamespacePrefix, Name, ApiVersion, Status, IsValid, BodyCrc, Body, LengthWithoutComments from ApexClass
+/services/data/{version}/query/?q=Select Id, NamespacePrefix, Name, ApiVersion, Status, IsValid, BodyCrc, Body, LengthWithoutComments from ApexClass
 ```
 ## Supported Versions
-38.0, 39.0, 40.0, 41.0
+38.0, 39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -22,16 +22,16 @@ Simple request of an ApexClass record
     {
       "attributes": {
         "type": "ApexClass",
-        "url": "/services/data/v41.0/sobjects/ApexClass/{ID}"
+        "url": "/services/data/{version}/sobjects/ApexClass/{ID}"
       },
       "Id": "{ID}",
       "NamespacePrefix": null,
-      "Name": "ApiatoSample",
+      "Name": "SutroSample",
       "ApiVersion": 41,
       "Status": "Active",
       "IsValid": false,
       "BodyCrc": 1521804554,
-      "Body": "public with sharing class ApiatoSample {}",
+      "Body": "public with sharing class SutroSample {}",
       "LengthWithoutComments": 45
     }
   ]

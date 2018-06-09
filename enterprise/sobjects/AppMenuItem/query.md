@@ -3,10 +3,10 @@ Simple request of an AppMenuItem record
 
 ## PATH
 ```
-/services/data/v41.0/query/?q=select Id, SortOrder, Name, NamespacePrefix, Label, Description, StartUrl, MobileStartUrl, LogoUrl, IconUrl, InfoUrl, IsUsingAdminAuthorization, MobilePlatform, MobileMinOsVer, MobileDeviceType, IsRegisteredDeviceOnly, MobileAppVer, MobileAppInstalledDate, MobileAppInstalledVersion, MobileAppBinaryId, MobileAppInstallUrl, CanvasEnabled, CanvasReferenceId, CanvasUrl, CanvasAccessMethod, CanvasSelectedLocations, CanvasOptions, Type, ApplicationId, UserSortOrder, IsVisible, IsAccessible from AppMenuItem
+/services/data/{version}/query/?q=select Id, SortOrder, Name, NamespacePrefix, Label, Description, StartUrl, MobileStartUrl, LogoUrl, IconUrl, InfoUrl, IsUsingAdminAuthorization, MobilePlatform, MobileMinOsVer, MobileDeviceType, IsRegisteredDeviceOnly, MobileAppVer, MobileAppInstalledDate, MobileAppInstalledVersion, MobileAppBinaryId, MobileAppInstallUrl, CanvasEnabled, CanvasReferenceId, CanvasUrl, CanvasAccessMethod, CanvasSelectedLocations, CanvasOptions, Type, ApplicationId, UserSortOrder, IsVisible, IsAccessible from AppMenuItem
 ```
 ## Supported Versions
-41.0
+41.0, 42.0, 43.0
 
 ## request
  ```json
@@ -22,7 +22,7 @@ Simple request of an AppMenuItem record
     {
       "attributes": {
         "type": "AppMenuItem",
-        "url": "/services/data/v41.0/sobjects/AppMenuItem/{ID}"
+        "url": "/services/data/{version}/sobjects/AppMenuItem/{ID}"
       },
       "Id": "{ID}",
       "SortOrder": 11,

@@ -6,7 +6,7 @@ Simple request of an AuraDefinition record
 /services/data/{version}/tooling/query/?q=select id, ManageableState, AuraDefinitionBundleId, DefType, Format, Source from AuraDefinition
 ```
 ## Supported Versions
-39.0, 40.0, 41.0, 42.0
+39.0, 40.0, 41.0, 42.0, 43.0
 
 ## request
 ```json
